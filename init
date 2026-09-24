@@ -1,0 +1,10 @@
+echo "#jorgeinc">> README.MD
+git init
+git add README.MD
+git commit -m "mi primer commit"
+git branch -M main
+git remote add rigin https://github.com/jorgeinc/jorgeinc.git
+git push -u origin main
+git remote add origin https://github.com/jorgeinc/jorgeinc.git
+git branch -M main 
+git push -u origin main
